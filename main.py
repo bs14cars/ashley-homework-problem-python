@@ -1,11 +1,4 @@
 def HeatWarning(temperature, humidity):
-    if temperature < 80:
-        print("Low Temperature: Not Classified")
-        return
-    
-    if temperature > 110:
-        print("Extreme Danger")
-        return
     
     if humidity < 0 or humidity > 100:
         print("Invalid Humidity Value")
